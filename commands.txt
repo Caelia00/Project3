@@ -1,0 +1,40 @@
+basic commands
+
+voor het eerst git command line interface
+git config --global user.name ”YOURNAME HERE" //echte naam
+git config --global user.email ”NAME@EMAIL.XXX" //je mail
+
+een project starten
+mkdir ...	//maakt een map aan
+cd ...		//opent een map
+git init	//geen idee, moet wel gedaan worden
+git status	//hier kan je zit wat er in de map zit
+
+
+dingen toevoegen
+touch ... 	//maakt een file aan bijv. text.txt powerpoint.pptx
+git add		//toevoegen van bestanden en mappen
+git commit -m ""//bericht toevoegen moet je doen!
+
+github account koppelen
+git config -global user.username <username>	//hoofdletters maken uit!
+git remote add origin <url.git> 		//koppelt een map aan een project. origin kan je veranderen naar iets anders, maar alles wat hieronder origin bevat zal ook moeten worden veranderd.
+git push -u origin master			//pushed het naar github
+git pull					//alles van git halen in de branch waar je in zit	***
+//de haakjes <> weglaten 	***
+
+git branches
+master(lokaal & github)
+origin(plaats op github)
+minsten 2 branches
+	master		//voornamelijk back-up
+	develop		//voornamelijk develop
+
+git branch	//branches bekijken
+git branch <branchnaam>		\\branch toevoegen
+git checkout <branchnaam>	//switchen van branch
+git merge <branchnaam>		//het samen voegen van branches
+
+alles met drie sterretjes *** weet ik niet zeker
+
+meer dingen moegen worden toegevoegd
