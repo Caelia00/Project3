@@ -7,6 +7,9 @@
     </p>
     <p>Veel plezier!</p>
 <body>
-
+    <label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
 </body>
 </asp:Content>

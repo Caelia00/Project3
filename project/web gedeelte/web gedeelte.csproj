@@ -134,6 +134,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Login.aspx" />
     <Content Include="Registreer.aspx" />
+    <Content Include="StyleSheet.css" />
     <Content Include="Zoekmachine.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />

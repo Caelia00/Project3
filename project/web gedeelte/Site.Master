@@ -14,12 +14,12 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />]
 </head>
 <body>
     <form runat="server">
         <asp:ScriptManager runat="server">
-            <Scripts>
+            <scripts>
                 <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
                 <%--Framework Scripts--%>
                 <asp:ScriptReference Name="MsAjaxBundle" />
@@ -35,20 +35,20 @@
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
                 <asp:ScriptReference Name="WebFormsBundle" />
                 <%--Site Scripts--%>
-            </Scripts>
+            </scripts>
         </asp:ScriptManager>
-
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MainNavBar"
+                        style="background-color: #000">
+                        <span class="icon-bar" style="background-color: #ffffff"></span>
+                        <span class="icon-bar" style="background-color: #ffffff"></span>
+                        <span class="icon-bar" style="background-color: #ffffff"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Projectgroep 7 skills</a>
+                    <a class="navbar-brand" style="color: #ffffff" href="#">C-sharp Corner</a>
                 </div>
-                <div class="navbar-collapse collapse">
+                <div class="navbar-collapse collapse" id="MainNavBar">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/Apps">Apps</a></li>
                         <li><a runat="server" href="~/Besturing">Besturing</a></li>
@@ -61,15 +61,16 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </nav>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <footer class="navbar-fixed-bottom">
-                <p>&copy; <%: DateTime.Now.Year %> - dahouse</p>
+                <p>&copy; <%: DateTime.Now.Date.ToString("d") %> - dahouse</p>
             </footer>
         </div>
-
     </form>
 </body>
 </html>
