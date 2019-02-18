@@ -343,4 +343,8 @@ ASALocalRun/
 healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
-MigrationBackup/
+MigrationBackup/project/web gedeelte/bin/web gedeelte.dll
+project/web gedeelte/bin/web gedeelte.pdb
+project/web gedeelte/obj/Debug/web gedeelte.csprojAssemblyReference.cache
+project/web gedeelte/obj/Debug/web gedeelte.dll
+project/web gedeelte/obj/Debug/web gedeelte.pdb
