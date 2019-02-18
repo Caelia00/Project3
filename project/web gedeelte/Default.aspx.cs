@@ -13,10 +13,10 @@ namespace web_gedeelte
         {
 
         }
-
-        protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        protected void click(object sender, EventArgs e)
         {
-
+            Label1.Text = checkbox1.Checked.ToString();
+            checkbox1.Checked = bool.Parse(Label1.Text);
         }
     }
 }
