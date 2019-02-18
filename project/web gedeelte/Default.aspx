@@ -5,6 +5,12 @@
     <p>Deze website bevat knoppen om naar verschillende onderwerpen te gaan. Om naar de onderwerpen te gaan moet er gewoon
         op de knoppen worden geklikt. Elk onderwerp heeft zijn eigen uitleg.
     </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>
+
+    </p>
+    <p>&nbsp;</p>
     <p>Veel plezier!</p>
 <body>
     <label class="switch">

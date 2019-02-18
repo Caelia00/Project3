@@ -22,7 +22,7 @@
         <br />
         <asp:Button ID="btn_kachel_omhoog" runat="server" Text="Kachel temp. omhoog" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btn_kachel_omlaag" runat="server" Text="Kachel temp. omlaag" />
+        <asp:Button ID="btn_kachel_omlaag" runat="server" Text="Kachel temp. omlaag" OnClick="btn_kachel_omlaag_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
 &nbsp;<p>
             <asp:Label ID="Label1" runat="server" Text="Voer in hoe hoog de temperatuur van de kachel moet zijn:"></asp:Label>
