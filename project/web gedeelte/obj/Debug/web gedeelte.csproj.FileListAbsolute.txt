@@ -101,16 +101,11 @@ D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Diagn
 D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.IO.Compression.dll
 D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.IO.FileSystem.dll
 D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.IO.Pipes.AccessControl.dll
-D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.IO.Pipes.dll
 D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Reflection.Metadata.dll
-D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Security.AccessControl.dll
-D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Security.Claims.dll
 D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Security.Cryptography.Algorithms.dll
 D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Security.Cryptography.Encoding.dll
 D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Security.Cryptography.Primitives.dll
 D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Security.Principal.Windows.dll
 D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Text.Encoding.CodePages.dll
 D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.ValueTuple.dll
 D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Xml.ReaderWriter.dll
@@ -148,3 +143,12 @@ D:\school\project_domotica\Project3\project\web gedeelte\obj\Debug\web gedeelte.
 D:\school\project_domotica\Project3\project\web gedeelte\obj\Debug\web gedeelte.csproj.CopyComplete
 D:\school\project_domotica\Project3\project\web gedeelte\obj\Debug\web gedeelte.dll
 D:\school\project_domotica\Project3\project\web gedeelte\obj\Debug\web gedeelte.pdb
+D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Globalization.Calendars.dll
+D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Net.Http.dll
+D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Net.Sockets.dll
+D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\school\project_domotica\Project3\project\web gedeelte\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\school\project_domotica\Project3\project\web gedeelte\bin\Newtonsoft.Json.pdb
