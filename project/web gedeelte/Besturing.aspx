@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="Besturing" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Besturing.aspx.cs" Inherits="web_gedeelte.Besturing" %>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <asp:UpdatePanel ID="UpdatePanel2" runat="server" UpdateMode="Conditional" ChildrenAsTriggers="False">
+        <ContentTemplate>
     <h3>Besturingspagina</h3>
     <p>Op deze pagina staat de besturing simpel weergegeven en kan ook worden getest.</p>
 <body>
@@ -30,5 +32,8 @@
             <asp:TextBox ID="txt_kachel" runat="server"></asp:TextBox>
             <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="De kachel kan niet lager zijn dan 12 en niet hoger dan 35 graden!!" MaximumValue="35" MinimumValue="12" ControlToValidate="txt_kachel"></asp:RangeValidator>
         </p>
+    
+        </ContentTemplate>
+    </asp:UpdatePanel>
 </body>
 </asp:Content>

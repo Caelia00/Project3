@@ -6,6 +6,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using MinimalisticTelnet;
 
 namespace web_gedeelte
 {
@@ -16,6 +17,12 @@ namespace web_gedeelte
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+        }
+        void Session_End(Object sender, EventArgs E)
+        {
+            TelnetConnection tc;
+            tc = (TelnetConnection) Session["connection"];
+            tc.WriteLine("exit");
         }
     }
 }
